@@ -140,3 +140,23 @@ ul {
     font-weight: bold;
     margin-bottom: 15px;
 }
+/* Footer Section */
+.footer {
+    padding: 60px;
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+}
+.footer_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer p {
+    font-size: 14px;
+    margin: 15px 0px;
+}
+.icon_lists {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}

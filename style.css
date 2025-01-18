@@ -13,8 +13,17 @@ body {
 }
 .container {
     width: 1200px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
+.btn {
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: #E02C6D;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+/* Header Section */
 .header_section {
     display: flex;
     justify-content: space-between;
@@ -32,4 +41,29 @@ body {
 .nav_lists li a {
     text-decoration: none;
     color: black;
+}
+/* Banner Section */
+.banner_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side-banner h1 {
+    font-size: 52px;
+    font-weight: bold;
+}
+.left-side-banner p {
+    font-weight: semi-bold;
+    margin-bottom: 10px;
+}
+.banner_btn {
+    border-radius: 30px;
+}
+.right-side-banner {
+    position: relative;
+}
+.main_camera {
+    position: absolute;
+    left: 5px;
+    top: 20px;
 }

@@ -1,5 +1,8 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --primary-color: #3A3A3A;
+  }
 /* Initial Setup */
 * {
     margin: 0;
@@ -9,7 +12,7 @@
 body {
     font-family: "Poppins", serif;
     font-size: 16px;
-    color: #3A3A3A;
+    color: var(--primary-color);
 }
 ul {
     list-style-type: none;
@@ -42,7 +45,7 @@ ul {
 
 .nav_lists li a {
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
 }
 /* Banner Section */
 .banner_section {
@@ -55,7 +58,6 @@ ul {
     font-weight: bold;
 }
 .left-side-banner p {
-    font-weight: semi-bold;
     margin-bottom: 10px;
 }
 .banner_btn {
@@ -79,4 +81,47 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* Popular Section */
+.popular_container {
+    width: 1050px;
+}
+.popular {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.popular_title {
+    font-size: 28px;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+.card {
+    width: 330px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+.card_img img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.card_details {
+    margin-left: 5px;
+}
+.card_title {
+    font-size: 28px;
+}
+.card_price {
+    font-size: 24px;
+}
+.card_description {
+    font-size: 14px;
+}
+.see_more {
+    margin-top: 20px;
+    color: #E02C6D;
+    font-weight: bold;
+    text-align: end;
 }

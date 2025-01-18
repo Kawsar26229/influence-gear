@@ -11,6 +11,9 @@ body {
     font-size: 16px;
     color: #3A3A3A;
 }
+ul {
+    list-style-type: none;
+}
 .container {
     width: 1200px;
     margin: 30px auto;
@@ -33,7 +36,6 @@ body {
     font-weight: bold;
 }
 .nav_lists {
-    list-style-type: none;
     display: flex;
     gap: 1.5rem;
 }
@@ -66,4 +68,15 @@ body {
     position: absolute;
     left: 5px;
     top: 20px;
+}
+/* Sponsor Section */
+.sponsor {
+    margin-top: 60px;
+    border: 1px solid #f0f0f0d8;
+    padding: 20px 30px;
+}
+.sponsor_lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
